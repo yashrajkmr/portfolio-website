@@ -66,6 +66,12 @@ a{
     text-decoration: none;
 }
 
+.nav-items div a {
+  text-decoration: underline;
+  color: black;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
 
 .nav-items div:hover{
     transition: 0.1s;
@@ -700,6 +706,12 @@ footer{
   color:white;
   text-decoration:none;
   transition:all 0.6s;
+}
+
+.link-wrapper div a{
+  text-decoration: underline;
+  color: whitesmoke;
+  transition: color 0.3s ease;
 }
 
 .link-wrapper div a:hover{
